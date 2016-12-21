@@ -1,1 +1,0 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="impactservice.DrupalEditor"%>      <%try{out.print(DrupalEditor.showDrupalContent("?q=node/1",request,response));}catch(DrupalEditor.DrupalEditorException e){out.print(e.getMessage());response.setStatus(e.getCode());}%>
